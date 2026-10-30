@@ -1,0 +1,116 @@
+/* GENERAL STYLES */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    line-height: 1.7;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.section-padding {
+    padding: 80px 0;
+}
+
+/* NAVIGATION */
+
+.custom-nav {
+    background-color: #0f172a;
+}
+
+.navbar-brand {
+    font-weight: 700;
+}
+
+.nav-link {
+    font-weight: 600;
+}
+
+/* HERO */
+
+.hero {
+    background-color: #0f172a;
+    color: white;
+    padding: 120px 0;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.hero-subtitle {
+    color: #d32f2f;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.contact-icons span {
+    display: block;
+    margin-top: 10px;
+}
+
+.contact-icons i {
+    color: #d32f2f;
+    margin-right: 10px;
+}
+
+.profile-image {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+/* SECTION TITLES */
+
+.section-title {
+    border-left: 6px solid #d32f2f;
+    padding-left: 15px;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+/* CARDS */
+
+.resume-card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,.08);
+    margin-bottom: 20px;
+}
+
+.resume-card h3 {
+    color: #0f172a;
+}
+
+/* FOOTER */
+
+footer {
+    background: #0f172a;
+    color: white;
+    padding: 30px 0;
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+    .hero h1 {
+        font-size: 2.8rem;
+    }
+
+    .profile-image {
+        margin-top: 30px;
+    }
+
+}
